@@ -1,0 +1,19 @@
+digraph G {
+node0 [label="A"]
+node0->node3 [label=" 0"]
+node0->node2 [label=" 1"]
+node1 [label="C" shape=doublecircle]
+start [style=invisible]
+start -> node1
+node1->node1 [label=" 0"]
+node1->node3 [label=" 1"]
+node2 [label="E"]
+node2->node1 [label=" 1"]
+node2->node4 [label=" 0"]
+node3 [label="B"]
+node3->node2 [label=" 0"]
+node3->node0 [label=" 1"]
+node4 [label="D"]
+node4->node0 [label=" 0"]
+node4->node4 [label=" 1"]
+}
